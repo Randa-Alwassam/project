@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+.image {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+    
+}
+table, th, td {
+    border: 1px solid;
+    width: 35cm;
+    border-color: rgb(103, 42, 42);
+  }
+  .content {
+  
+    font-family: 'Quicksand';
+    font-size: 3ch;
+    font-weight: bold;
+    margin: 1em;
+    background-image: url('cnt.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  }
+  #hr {
+    border-top: 1px dashed rgb(86, 46, 52);
+  }
+  body
+  {
+    background-size: cover;
+    font-family:'Muli';
+    background:linear-gradient(#F5CAC3, #d7fbf2);
+    padding: 7%;
+  }
+  button {
+    background-color: #9ab9ba;
+    border: none;
+    border-radius: 5%;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
